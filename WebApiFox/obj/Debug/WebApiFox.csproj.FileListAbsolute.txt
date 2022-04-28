@@ -1,0 +1,950 @@
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\WebApiFox.dll.config
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\WebApiFox.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\WebApiFox.pdb
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\csc.exe
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\csc.exe.config
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\csc.rsp
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\csi.exe
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\csi.exe.config
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\csi.rsp
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\System.AppContext.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\System.Collections.Immutable.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\System.Console.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\System.IO.Compression.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\System.IO.FileSystem.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\System.IO.Pipes.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\System.Reflection.Metadata.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\System.Security.AccessControl.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\System.Security.Claims.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\System.ValueTuple.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\System.Xml.XPath.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\vbc.exe
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\vbc.exe.config
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\vbc.rsp
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\VBCSCompiler.exe
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\roslyn\VBCSCompiler.exe.config
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\Antlr3.Runtime.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\Microsoft.Web.Infrastructure.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\Newtonsoft.Json.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\System.Net.Http.Formatting.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\System.Web.Helpers.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\System.Web.Http.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\System.Web.Http.WebHost.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\System.Web.Mvc.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\System.Web.Optimization.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\System.Web.Razor.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\System.Web.WebPages.Deployment.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\System.Web.WebPages.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\System.Web.WebPages.Razor.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\WebGrease.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\Newtonsoft.Json.xml
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\System.Net.Http.Formatting.xml
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\System.Web.Helpers.xml
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\System.Web.Http.xml
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\System.Web.Http.WebHost.xml
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\System.Web.Mvc.xml
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\System.Web.Optimization.xml
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\System.Web.Razor.xml
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\System.Web.WebPages.xml
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\System.Web.WebPages.Deployment.xml
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\System.Web.WebPages.Razor.xml
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\Antlr3.Runtime.pdb
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\es\System.Web.Helpers.resources.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\es\System.Web.Http.resources.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\es\System.Web.Mvc.resources.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\es\System.Web.Optimization.resources.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\es\System.Web.Razor.resources.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\es\System.Web.WebPages.resources.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\obj\Debug\WebApiFox.csproj.CoreCompileInputs.cache
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\obj\Debug\WebApiFox.csproj.CopyComplete
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\obj\Debug\WebApiFox.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\obj\Debug\WebApiFox.pdb
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\EntityFramework.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\EntityFramework.SqlServer.dll
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\EntityFramework.xml
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\bin\EntityFramework.SqlServer.xml
+C:\Desarrollo\WebApiFox\WebApiFox\WebApiFox\obj\Debug\WebApiFox.csprojAssemblyReference.cache
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\WebApiFox.dll.config
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\WebApiFox.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\WebApiFox.pdb
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\csc.exe
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\csc.exe.config
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\csc.rsp
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\csi.exe
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\csi.exe.config
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\csi.rsp
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\System.AppContext.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\System.Collections.Immutable.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\System.Console.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.Compression.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.FileSystem.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.Pipes.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\System.Reflection.Metadata.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.AccessControl.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Claims.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\System.ValueTuple.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\System.Xml.XPath.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\vbc.exe
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\vbc.exe.config
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\vbc.rsp
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\VBCSCompiler.exe
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\roslyn\VBCSCompiler.exe.config
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\Antlr3.Runtime.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\EntityFramework.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\EntityFramework.SqlServer.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\Microsoft.Web.Infrastructure.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\Newtonsoft.Json.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\System.Net.Http.Formatting.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\System.Web.Helpers.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\System.Web.Http.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\System.Web.Http.WebHost.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\System.Web.Mvc.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\System.Web.Optimization.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\System.Web.Razor.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.Deployment.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.Razor.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\WebGrease.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\EntityFramework.xml
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\EntityFramework.SqlServer.xml
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\Newtonsoft.Json.xml
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\System.Net.Http.Formatting.xml
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\System.Web.Helpers.xml
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\System.Web.Http.xml
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\System.Web.Http.WebHost.xml
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\System.Web.Mvc.xml
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\System.Web.Optimization.xml
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\System.Web.Razor.xml
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.xml
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.Deployment.xml
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.Razor.xml
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\Antlr3.Runtime.pdb
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\es\System.Web.Helpers.resources.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\es\System.Web.Http.resources.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\es\System.Web.Mvc.resources.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\es\System.Web.Optimization.resources.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\es\System.Web.Razor.resources.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\es\System.Web.WebPages.resources.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\obj\Debug\WebApiFox.csprojAssemblyReference.cache
+C:\Desarrollo\Api\WebApiFox\WebApiFox\obj\Debug\WebApiFox.csproj.CopyComplete
+C:\Desarrollo\Api\WebApiFox\WebApiFox\obj\Debug\WebApiFox.dll
+C:\Desarrollo\Api\WebApiFox\WebApiFox\obj\Debug\WebApiFox.pdb
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\WebApiFox.dll.config
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\WebApiFox.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\WebApiFox.pdb
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csc.exe
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csc.exe.config
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csc.rsp
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csi.exe
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csi.exe.config
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csi.rsp
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.AppContext.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Console.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.Compression.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.Pipes.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Claims.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.ValueTuple.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Xml.XPath.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\vbc.exe
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\vbc.exe.config
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\vbc.rsp
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\VBCSCompiler.exe
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\Antlr3.Runtime.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\EntityFramework.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\EntityFramework.SqlServer.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\Newtonsoft.Json.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\System.Net.Http.Formatting.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Helpers.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Http.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Http.WebHost.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Mvc.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Optimization.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Razor.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.Razor.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\WebGrease.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\EntityFramework.xml
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\EntityFramework.SqlServer.xml
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\Newtonsoft.Json.xml
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\System.Net.Http.Formatting.xml
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Helpers.xml
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Http.xml
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Http.WebHost.xml
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Mvc.xml
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Optimization.xml
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Razor.xml
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.xml
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.Razor.xml
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\Antlr3.Runtime.pdb
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Helpers.resources.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Http.resources.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Mvc.resources.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Optimization.resources.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Razor.resources.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.WebPages.resources.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\obj\Debug\WebApiFox.csprojAssemblyReference.cache
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\obj\Debug\WebApiFox.csproj.CopyComplete
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\obj\Debug\WebApiFox.dll
+C:\Users\jose.rivas\Desktop\FOx\Api\WebApiFox\WebApiFox\obj\Debug\WebApiFox.pdb
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\WebApiFox.dll.config
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\WebApiFox.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\WebApiFox.pdb
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csc.exe
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csc.exe.config
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csc.rsp
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csi.exe
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csi.exe.config
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csi.rsp
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.AppContext.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Console.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.Compression.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.Pipes.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Claims.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.ValueTuple.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Xml.XPath.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\vbc.exe
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\vbc.exe.config
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\vbc.rsp
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\VBCSCompiler.exe
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\Antlr3.Runtime.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\EntityFramework.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\EntityFramework.SqlServer.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\Newtonsoft.Json.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Net.Http.Formatting.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Helpers.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Http.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Http.WebHost.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Mvc.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Optimization.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Razor.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.Razor.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\WebGrease.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\EntityFramework.xml
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\EntityFramework.SqlServer.xml
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\Newtonsoft.Json.xml
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Net.Http.Formatting.xml
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Helpers.xml
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Http.xml
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Http.WebHost.xml
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Mvc.xml
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Optimization.xml
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Razor.xml
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.xml
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.Razor.xml
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\Antlr3.Runtime.pdb
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Helpers.resources.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Http.resources.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Mvc.resources.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Optimization.resources.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Razor.resources.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.WebPages.resources.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\obj\Debug\WebApiFox.csprojAssemblyReference.cache
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\obj\Debug\WebApiFox.csproj.CopyComplete
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\obj\Debug\WebApiFox.dll
+C:\Users\jose.rivas\Desktop\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\obj\Debug\WebApiFox.pdb
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\WebApiFox.dll.config
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\WebApiFox.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\WebApiFox.pdb
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csc.exe
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csc.exe.config
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csc.rsp
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csi.exe
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csi.exe.config
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csi.rsp
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.AppContext.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Console.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.Compression.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.Pipes.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Claims.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.ValueTuple.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Xml.XPath.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\vbc.exe
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\vbc.exe.config
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\vbc.rsp
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\VBCSCompiler.exe
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\Antlr3.Runtime.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\EntityFramework.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\EntityFramework.SqlServer.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\Newtonsoft.Json.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Net.Http.Formatting.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Cors.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Helpers.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Http.Cors.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Http.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Http.WebHost.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Mvc.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Optimization.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Razor.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.Razor.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\WebGrease.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\EntityFramework.xml
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\EntityFramework.SqlServer.xml
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Net.Http.Formatting.xml
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Http.xml
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Http.Cors.xml
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\Newtonsoft.Json.xml
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Helpers.xml
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Http.WebHost.xml
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Mvc.xml
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Optimization.xml
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Razor.xml
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.xml
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.Razor.xml
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\Antlr3.Runtime.pdb
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Http.resources.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Helpers.resources.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Mvc.resources.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Optimization.resources.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Razor.resources.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.WebPages.resources.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\obj\Debug\WebApiFox.csproj.CopyComplete
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\obj\Debug\WebApiFox.dll
+C:\Users\jose.rivas\Desktop\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\obj\Debug\WebApiFox.pdb
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\WebApiFox.dll.config
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\WebApiFox.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\WebApiFox.pdb
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csc.exe
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csc.exe.config
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csc.rsp
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csi.exe
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csi.exe.config
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csi.rsp
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.AppContext.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Console.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.Compression.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.Pipes.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Claims.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.ValueTuple.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Xml.XPath.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\vbc.exe
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\vbc.exe.config
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\vbc.rsp
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\VBCSCompiler.exe
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\Antlr3.Runtime.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\EntityFramework.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\EntityFramework.SqlServer.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\Newtonsoft.Json.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Net.Http.Formatting.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Cors.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Helpers.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Http.Cors.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Http.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Http.WebHost.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Mvc.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Optimization.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Razor.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.Razor.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\WebGrease.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\EntityFramework.xml
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\EntityFramework.SqlServer.xml
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Net.Http.Formatting.xml
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Http.xml
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Http.Cors.xml
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\Newtonsoft.Json.xml
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Helpers.xml
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Http.WebHost.xml
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Mvc.xml
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Optimization.xml
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Razor.xml
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.xml
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.Razor.xml
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\Antlr3.Runtime.pdb
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Http.resources.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Helpers.resources.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Mvc.resources.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Optimization.resources.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Razor.resources.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.WebPages.resources.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\obj\Debug\WebApiFox.csproj.CopyComplete
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\obj\Debug\WebApiFox.dll
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\obj\Debug\WebApiFox.pdb
+C:\Users\jose.rivas\Desktop\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\obj\Debug\WebApiFox.csprojAssemblyReference.cache
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\WebApiFox.dll.config
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\WebApiFox.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\WebApiFox.pdb
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csc.exe
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csc.exe.config
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csc.rsp
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csi.exe
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csi.exe.config
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\csi.rsp
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.AppContext.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Console.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.Compression.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.IO.Pipes.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Claims.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.ValueTuple.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Xml.XPath.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\vbc.exe
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\vbc.exe.config
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\vbc.rsp
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\VBCSCompiler.exe
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\Antlr3.Runtime.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\EntityFramework.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\EntityFramework.SqlServer.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\Newtonsoft.Json.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Net.Http.Formatting.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Cors.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Helpers.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Http.Cors.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Http.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Http.WebHost.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Mvc.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Optimization.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Razor.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.Razor.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\WebGrease.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\EntityFramework.xml
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\EntityFramework.SqlServer.xml
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Net.Http.Formatting.xml
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Http.xml
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Http.Cors.xml
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\Newtonsoft.Json.xml
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Helpers.xml
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Http.WebHost.xml
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Mvc.xml
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Optimization.xml
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.Razor.xml
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.xml
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\System.Web.WebPages.Razor.xml
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\Antlr3.Runtime.pdb
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Http.resources.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Helpers.resources.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Mvc.resources.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Optimization.resources.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.Razor.resources.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.WebPages.resources.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\obj\Debug\WebApiFox.csproj.CopyComplete
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\obj\Debug\WebApiFox.dll
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\obj\Debug\WebApiFox.pdb
+C:\Users\jose.rivas\Desktop\dASDasd\cosas2\Documentos\Nueva carpeta (4)\Nueva carpeta\FOx\Api\WebApiFox\WebApiFox\obj\Debug\WebApiFox.csprojAssemblyReference.cache
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\WebApiFox.dll.config
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\WebApiFox.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\WebApiFox.pdb
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\csc.exe
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\csc.exe.config
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\csc.rsp
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\csi.exe
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\csi.exe.config
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\csi.rsp
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\System.AppContext.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\System.Console.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\System.IO.Compression.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\System.IO.Pipes.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\System.Security.Claims.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\System.ValueTuple.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\System.Xml.XPath.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\vbc.exe
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\vbc.exe.config
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\vbc.rsp
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\VBCSCompiler.exe
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\Antlr3.Runtime.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\EntityFramework.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\EntityFramework.SqlServer.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\Newtonsoft.Json.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\System.Net.Http.Formatting.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\System.Web.Cors.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\System.Web.Helpers.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\System.Web.Http.Cors.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\System.Web.Http.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\System.Web.Http.WebHost.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\System.Web.Mvc.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\System.Web.Optimization.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\System.Web.Razor.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\System.Web.WebPages.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\System.Web.WebPages.Razor.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\WebGrease.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\EntityFramework.xml
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\EntityFramework.SqlServer.xml
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\System.Net.Http.Formatting.xml
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\System.Web.Http.xml
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\System.Web.Http.Cors.xml
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\Newtonsoft.Json.xml
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\System.Web.Helpers.xml
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\System.Web.Http.WebHost.xml
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\System.Web.Mvc.xml
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\System.Web.Optimization.xml
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\System.Web.Razor.xml
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\System.Web.WebPages.xml
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\System.Web.WebPages.Razor.xml
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\Antlr3.Runtime.pdb
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\es\System.Web.Http.resources.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\es\System.Web.Helpers.resources.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\es\System.Web.Mvc.resources.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\es\System.Web.Optimization.resources.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\es\System.Web.Razor.resources.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\es\System.Web.WebPages.resources.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\obj\Debug\WebApiFox.csprojAssemblyReference.cache
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\obj\Debug\WebApiFox.csproj.CopyComplete
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\obj\Debug\WebApiFox.dll
+C:\Users\jose.rivas\source\repos\Consulta Web\WebApiFox\obj\Debug\WebApiFox.pdb
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\WebApiFox.dll.config
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\WebApiFox.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\WebApiFox.pdb
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\csc.exe
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\csc.exe.config
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\csc.rsp
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\csi.exe
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\csi.exe.config
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\csi.rsp
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\System.AppContext.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\System.Console.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\System.IO.Compression.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\System.IO.Pipes.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\System.Security.Claims.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\System.ValueTuple.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\System.Xml.XPath.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\vbc.exe
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\vbc.exe.config
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\vbc.rsp
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\VBCSCompiler.exe
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\Antlr3.Runtime.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\EntityFramework.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\EntityFramework.SqlServer.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\Newtonsoft.Json.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\System.Net.Http.Formatting.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\System.Web.Cors.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\System.Web.Helpers.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\System.Web.Http.Cors.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\System.Web.Http.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\System.Web.Http.WebHost.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\System.Web.Mvc.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\System.Web.Optimization.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\System.Web.Razor.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\System.Web.WebPages.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\System.Web.WebPages.Razor.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\WebGrease.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\EntityFramework.xml
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\EntityFramework.SqlServer.xml
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\System.Net.Http.Formatting.xml
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\System.Web.Http.xml
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\System.Web.Http.Cors.xml
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\Newtonsoft.Json.xml
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\System.Web.Helpers.xml
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\System.Web.Http.WebHost.xml
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\System.Web.Mvc.xml
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\System.Web.Optimization.xml
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\System.Web.Razor.xml
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\System.Web.WebPages.xml
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\System.Web.WebPages.Razor.xml
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\Antlr3.Runtime.pdb
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\es\System.Web.Http.resources.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\es\System.Web.Helpers.resources.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\es\System.Web.Mvc.resources.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\es\System.Web.Optimization.resources.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\es\System.Web.Razor.resources.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\es\System.Web.WebPages.resources.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\obj\Debug\WebApiFox.csproj.AssemblyReference.cache
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\obj\Debug\WebApiFox.csproj.CoreCompileInputs.cache
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\obj\Debug\WebApiFox.csproj.CopyComplete
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\obj\Debug\WebApiFox.dll
+C:\Users\jose.rivas\Desktop\Variedad\USB CHEPEYIN\Consulta Web\WebApiFox\obj\Debug\WebApiFox.pdb
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\WebApiFox.dll.config
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\WebApiFox.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\WebApiFox.pdb
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\roslyn\csc.exe
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\roslyn\csc.exe.config
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\roslyn\csc.rsp
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\roslyn\csi.exe
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\roslyn\csi.rsp
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\roslyn\System.AppContext.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\roslyn\vbc.exe
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\roslyn\vbc.exe.config
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\roslyn\vbc.rsp
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\roslyn\VBCSCompiler.exe
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\Antlr3.Runtime.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\EntityFramework.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\EntityFramework.SqlServer.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\Newtonsoft.Json.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\System.Net.Http.Formatting.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\System.Web.Cors.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\System.Web.Helpers.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\System.Web.Http.Cors.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\System.Web.Http.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\System.Web.Http.WebHost.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\System.Web.Mvc.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\System.Web.Optimization.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\System.Web.Razor.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\System.Web.WebPages.Deployment.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\System.Web.WebPages.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\System.Web.WebPages.Razor.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\WebGrease.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\EntityFramework.xml
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\EntityFramework.SqlServer.xml
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\System.Net.Http.Formatting.xml
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\System.Web.Http.xml
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\System.Web.Http.Cors.xml
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\Newtonsoft.Json.xml
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\System.Web.Helpers.xml
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\System.Web.Http.WebHost.xml
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\System.Web.Mvc.xml
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\System.Web.Optimization.xml
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\System.Web.Razor.xml
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\System.Web.WebPages.xml
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\System.Web.WebPages.Deployment.xml
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\System.Web.WebPages.Razor.xml
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\Antlr3.Runtime.pdb
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\es\System.Web.Http.resources.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\es\System.Web.Helpers.resources.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\es\System.Web.Mvc.resources.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\es\System.Web.Optimization.resources.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\es\System.Web.Razor.resources.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\es\System.Web.WebPages.resources.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\obj\Debug\WebApiFox.csproj.AssemblyReference.cache
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\obj\Debug\WebApiFox.csproj.CoreCompileInputs.cache
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\obj\Debug\WebApiFox.csproj.CopyComplete
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\obj\Debug\WebApiFox.dll
+C:\Users\bryan.campos\Downloads\Consulta Web\Consulta Web\WebApiFox\obj\Debug\WebApiFox.pdb

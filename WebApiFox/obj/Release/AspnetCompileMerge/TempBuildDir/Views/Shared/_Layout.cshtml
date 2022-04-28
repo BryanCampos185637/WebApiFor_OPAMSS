@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    <!-----Estilos DataTable Aquiii-------->
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.22/css/dataTables.bulma.min.css" />
+    <!-----Estilos DataTable Aquiii-------->
+
+    <script src="//code.jquery.com/jquery-3.5.0.js"></script>
+    @Scripts.Render("~/bundles/bootstrap")
+
+    <script src="~/Scripts/jquery.function.js"></script>
+    <link href="~/Content/Cards.css" rel="stylesheet" />
+
+    <script src="//cdn.rawgit.com/Mikhus/canvas-gauges/gh-pages/download/2.1.7/radial/gauge.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-----Jquery Datatable Aquiii-------->
+    <script type="text/javascript" src="//cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="//cdn.datatables.net/1.10.22/js/dataTables.bulma.min.js"></script>
+
+    <!-----Jquery Datatable Aquiii-------->
+    <link rel="stylesheet" href="//use.fontawesome.com/688a3ec5ea.css">
+
+    <script src="~/Scripts/jquery.blockUI.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.js"></script>
+</head>
+<body>
+    <style>
+        i{
+            cursor:pointer;
+        }
+        .Gris{
+            background-color:#6C757D;
+        }
+        .Azul{
+            background-color:#007BFF;
+         }
+        .Verde{
+            background-color:#28A745;
+        }
+    </style>
+    <header>
+
+        <div class="navbar navbar-inverse navbar-fixed-top" style="background-color: #233460;" role="navigation">
+
+
+
+            <div class="container">
+
+                <a class="navbar-brand">
+
+                    <img style="width:60%;height:150%;" src="~/Content/Imagenes/logo.png" />
+
+                </a>
+
+
+
+
+
+            </div>
+
+        </div>
+
+
+
+        <br />
+
+
+
+    </header>
+
+    <div class="container">
+
+        @RenderBody()
+    </div>
+
+
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>

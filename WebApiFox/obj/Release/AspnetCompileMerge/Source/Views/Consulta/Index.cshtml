@@ -1,0 +1,79 @@
+﻿@model List<WebApiFox.Models.ConsultaModel>
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="container">
+    <center> <h2 class="text-center" style="font-size:40px;color:dimgrey">Consulta General de Trámites</h2></center>
+    <hr />
+    <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-md-2">
+            <label class="text-green font-weight-bold" style="color:#5fa760">Año*</label>
+
+            <div id="DropAnios"></div>
+            <small class="form-text text-muted">* Obligatorio</small>
+        </div>
+        <div class="col-md-3">
+
+            <label class="text-green font-weight-bold" style="color:#5fa760">Tipo de trámite*</label>
+
+            <div id="selectTipoTramite"></div>
+
+            <small class="form-text text-muted">* Obligatorio</small>
+        </div>
+
+        <div class="col-md-3">
+
+            <label class="text-green font-weight-bold" style="color:#5fa760">Numero de Expediente*</label>
+            <input id="lsExpe" class="form-control" style="width:200px" placeholder="Ejemplo 00012013" />
+        </div>
+        <div class="col-md-2">
+            <button type="submit" name="btn-submit" id="btBuscar" class="btn btn-success" style="margin-top:25px">Consultar</button>
+
+        </div>
+
+
+
+    </div>
+</div>
+
+<div class="panel-body">
+    <div class="adv-table">
+        <table id="consultaTable" class="table is-striped" style="width:100%">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().numeroExpediente)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().estado)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().nomProy)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().municipio)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FirstOrDefault().tiempoRespuesta) <br />
+                        (Días Habiles)
+                    </th>
+                    <th>
+                        Seleccionar
+                    </th>
+
+
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+
+        </table>
+    </div>
+</div>
+
+
+
+<script src="~/Scripts/jquery.consultaweb.js"></script>
+<script src="~/Scripts/jquery.consultaModal.js"></script>
