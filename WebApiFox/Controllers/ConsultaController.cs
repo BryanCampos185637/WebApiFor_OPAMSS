@@ -44,9 +44,10 @@ namespace WebApiFox.Controllers
         // GET: Consulta
         public ActionResult Index()
         {
-            var Lista = tipoTramitesList().OrderBy(x => x.nombre).Where(x => x.codigo_tramite != "ca" && x.codigo_tramite != "de" && x.codigo_tramite != "le").ToList();
-            ViewBag.codigo_tramite = new SelectList(Lista, "codigo_tramite", "nombre");
-            return View(new List<Models.ConsultaModel>());
+            //var Lista = tipoTramitesList().OrderBy(x => x.nombre).Where(x => x.codigo_tramite != "ca" && x.codigo_tramite != "de" && x.codigo_tramite != "le").ToList();
+            //ViewBag.codigo_tramite = new SelectList(Lista, "codigo_tramite", "nombre");
+            //return View(new List<Models.ConsultaModel>());
+            return View();
         }
 
         public HttpResponseMessage GetPDf(string id)

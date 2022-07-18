@@ -10,9 +10,6 @@ namespace WebApiFox.Models
     {
         public ConsultaModel()
         {
-            
-            
-             
         }
         [Display(Name = "Expediente")]
         public string numeroExpediente { get; set; }
@@ -66,5 +63,6 @@ namespace WebApiFox.Models
             } 
         }
         public string FechaFoo { get; set; }
+        public string OrigenData { get; set; } = "DbFox";
     }
 }

@@ -21,15 +21,22 @@ namespace WebApiFox.Controllers
         [Route("api/tramites/GetT")]
         public IHttpActionResult Get()
         {
-            List<TipoTramite> newList = new List<TipoTramite>();
-            cnPost = new TramitesPostContext();
-            this.TiposTramite = cnPost.GetData("select id_tipo_tramite, codigo_tramite, nombre from public.tipo_tramite").ConvertDataTable<TipoTramite>();
-            foreach (var item in TiposTramite)
+            try
             {
-                if (item.codigo_tramite != "ca " && item.codigo_tramite != "de " && item.codigo_tramite != "le ")
-                    newList.Add(item);
+                List<TipoTramite> newList = new List<TipoTramite>();
+                cnPost = new TramitesPostContext();
+                this.TiposTramite = cnPost.GetData("select id_tipo_tramite, codigo_tramite, nombre from public.tipo_tramite").ConvertDataTable<TipoTramite>();
+                foreach (var item in TiposTramite)
+                {
+                    if (item.codigo_tramite != "ca " && item.codigo_tramite != "de " && item.codigo_tramite != "le ")
+                        newList.Add(item);
+                }
+                return Ok(newList);
             }
-            return Ok(newList);
+            catch (Exception ex)
+            {
+                return BadRequest();
+            }
         }
 
         [HttpGet]

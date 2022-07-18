@@ -6,9 +6,12 @@ using System.Data;
 using WebApiFox.Models;
 using System.Globalization;
 using System.Web.Http.Cors;
+using WebApiFox.Repositorio;
+using System.Threading.Tasks;
+
 namespace WebApiFox.Controllers
 {
-    
+
     [EnableCors(origins: "http://tramites.opamss.org.sv:8083,http://tramites.opamss.org.sv:8084,http://localhost:54490,http://localhost:4200,https://tramites.opamss.org.sv", headers: "*", methods: "*")]
     public class ValuesController : ApiController
     {
@@ -18,8 +21,6 @@ namespace WebApiFox.Controllers
         List<DiasFestivos> diasFestivosList;
         List<TipoTramite> TiposTramite;
         List<TiemposMaximos> tiempos;
-
-
 
         public ValuesController()
         {
@@ -38,40 +39,54 @@ namespace WebApiFox.Controllers
 
         }
         [HttpGet]
-        [Route("api/Values/Getall")]
-        public IEnumerable<object> Getall(string anio, string tabla, string expediente)
+        [Route("api/Values/GetAllVentanillaVirtual")]
+        public List<ConsultaModel> GetAllVentanillaVirtual(string anio, string tabla, string expediente)
         {
-
-            tabla = tabla.Replace(@"'", "");
-            tabla = tabla.Replace(@"/", "");
-            tabla = tabla.Replace(@"?", "");
-            tabla = tabla.Replace(@"%", "");
-            tabla = tabla.Replace(@"+", "");
-            tabla = tabla.Replace(@"=", "");
-            tabla = tabla.Replace(@"or", "");
-            tabla = tabla.Replace(@"-", "");
-            tabla = tabla.Replace(@".", "");
-            switch (tabla)
+            var repositorioVerntanilla = new RepositorioExpedienteVentanillaVirtual();
+            var lista = repositorioVerntanilla.ObtenerExpedientesDeVentanillaConsultaModel(tabla, Convert.ToInt32(anio), expediente);
+            return lista;
+        }
+        [HttpGet]
+        [Route("api/Values/Getall")]
+        public async Task<List<ConsultaModel>> Getall(string anio, string tabla, string expediente)
+        {
+            try
             {
-                case "mo":
-                    return this.PostMO(new requesDataApi() { anio = anio, codigo_tramite = tabla, complementoWhere = expediente });
+                tabla = ReemplazarCaracteres(tabla);
+                List<ConsultaModel> lista = new List<ConsultaModel>();
+                switch (tabla)
+                {
+                    case "mo":
+                        lista.AddRange(this.PostMO(new requesDataApi() { anio = anio, codigo_tramite = tabla, complementoWhere = expediente }));
+                        break;
+                    case "sc":
 
-                case "sc":
-
-                    return this.PostSC(new requesDataApi() { anio = anio, codigo_tramite = tabla, complementoWhere = expediente });
-
-                case "iv":
-                    return this.PostIV(new requesDataApi() { anio = anio, codigo_tramite = tabla, complementoWhere = expediente });
-
-                default:
-                    return this.Post(new requesDataApi() { anio = anio, codigo_tramite = tabla, complementoWhere = expediente });
-
-
+                        lista.AddRange(this.PostSC(new requesDataApi() { anio = anio, codigo_tramite = tabla, complementoWhere = expediente }));
+                        break;
+                    case "iv":
+                        lista.AddRange(this.PostIV(new requesDataApi() { anio = anio, codigo_tramite = tabla, complementoWhere = expediente }));
+                        break;
+                    default:
+                        lista.AddRange(this.Post(new requesDataApi() { anio = anio, codigo_tramite = tabla, complementoWhere = expediente }));
+                        break;
+                }
+                var listaExpedienteVentanilla = await new RepositorioExpedienteVentanillaVirtual().GetExpedientesByEndPoint(tabla, Convert.ToInt32(anio), expediente);
+                if (listaExpedienteVentanilla != null && listaExpedienteVentanilla.Count > 0)
+                    lista.AddRange(listaExpedienteVentanilla);
+                return lista;
             }
-
+            catch (Exception ex)
+            {
+                throw new Exception($"Ocurrio un problema con la peticion: ${ex.Message}");
+            }
         }
 
-        public IEnumerable<object> PostMO(requesDataApi requesdata)
+        private string ReemplazarCaracteres(string tabla)
+        {
+            return tabla.Replace(@"'", "").Replace(@"/", "").Replace(@"?", "").Replace(@"%", "").Replace(@"+", "").Replace(@"=", "")
+                .Replace(@"or", "").Replace(@"-", "").Replace(@".", "");
+        }
+        public List<ConsultaModel> PostMO(requesDataApi requesdata)
         {
             this.diasFestivosList = cnPost.GetData("Select * from public.dia_festivo order by fecha desc").ConvertDataTable<DiasFestivos>();
             this.TiposTramite = cnPost.GetData("select id_tipo_tramite, codigo_tramite, nombre from public.tipo_tramite").ConvertDataTable<TipoTramite>();
@@ -79,7 +94,7 @@ namespace WebApiFox.Controllers
             var rtQuery = cn.GetTramites(requesdata.anio, requesdata.codigo_tramite, requesdata.complementoWhere);
 
             var tramites = rtQuery.ConvertDataTable<ConsultaFoxModel>();
-            List<ConsultaModelDiferente> resultado = new List<ConsultaModelDiferente>();
+            List<ConsultaModel> resultado = new List<ConsultaModel>();
 
             foreach (var registro in tramites)
             {
@@ -96,7 +111,7 @@ namespace WebApiFox.Controllers
                     registro.n_acceso3.Trim(),
                     registro.poligono.Trim());
 
-                var model = new ConsultaModelDiferente()
+                var model = new ConsultaModel()
                 {
                     numeroExpediente = registro.numeroexpediente.Trim(),
                     nombreTipoTramite = esteTramite?.nombre.Trim(),
@@ -112,7 +127,7 @@ namespace WebApiFox.Controllers
         }
 
         // GET api/values
-        public IEnumerable<object> Post(requesDataApi requesdata)
+        public List<ConsultaModel> Post(requesDataApi requesdata)
         {
             this.diasFestivosList = cnPost.GetData("Select * from public.dia_festivo order by fecha desc").ConvertDataTable<DiasFestivos>();
             this.TiposTramite = cnPost.GetData("select id_tipo_tramite, codigo_tramite, nombre from public.tipo_tramite").ConvertDataTable<TipoTramite>();
@@ -277,7 +292,7 @@ namespace WebApiFox.Controllers
         }
 
         // GET api/values
-        public IEnumerable<object> PostSC(requesDataApi requesdata)
+        public List<ConsultaModel> PostSC(requesDataApi requesdata)
         {
             this.diasFestivosList = cnPost.GetData("Select * from public.dia_festivo order by fecha desc").ConvertDataTable<DiasFestivos>();
             this.TiposTramite = cnPost.GetData("select id_tipo_tramite, codigo_tramite, nombre from public.tipo_tramite").ConvertDataTable<TipoTramite>();
@@ -349,7 +364,7 @@ namespace WebApiFox.Controllers
             }
             return resultado.OrderByDescending(p => Convert.ToUInt64(p.numeroExpediente)).ToList();
         }
-        public IEnumerable<object> PostIV(requesDataApi requesdata)
+        public List<ConsultaModel> PostIV(requesDataApi requesdata)
         {
             this.diasFestivosList = cnPost.GetData("Select * from public.dia_festivo order by fecha desc").ConvertDataTable<DiasFestivos>();
             this.TiposTramite = cnPost.GetData("select id_tipo_tramite, codigo_tramite, nombre from public.tipo_tramite").ConvertDataTable<TipoTramite>();

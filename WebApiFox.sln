@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.902
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiFox", "WebApiFox\WebApiFox.csproj", "{449748C2-E7DF-4D2E-A837-92300D85F934}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Text.ApiFox", "Text.ApiFox\Text.ApiFox.csproj", "{A8B3E00B-4C48-4FC2-B474-21102956C248}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{449748C2-E7DF-4D2E-A837-92300D85F934}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{449748C2-E7DF-4D2E-A837-92300D85F934}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{449748C2-E7DF-4D2E-A837-92300D85F934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8B3E00B-4C48-4FC2-B474-21102956C248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8B3E00B-4C48-4FC2-B474-21102956C248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8B3E00B-4C48-4FC2-B474-21102956C248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8B3E00B-4C48-4FC2-B474-21102956C248}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

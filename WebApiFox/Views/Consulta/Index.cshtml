@@ -1,79 +1,220 @@
-﻿@model List<WebApiFox.Models.ConsultaModel>
-@{
-    ViewBag.Title = "Index";
+﻿@{
+    ViewBag.Title = "Consulta General de Trámites";
 }
-
-<div class="container">
-    <center> <h2 class="text-center" style="font-size:40px;color:dimgrey">Consulta General de Trámites</h2></center>
-    <hr />
-    <div class="row">
-        <div class="col-lg-2"></div>
-        <div class="col-md-2">
-            <label class="text-green font-weight-bold" style="color:#5fa760">Año*</label>
-
-            <div id="DropAnios"></div>
-            <small class="form-text text-muted">* Obligatorio</small>
+<div class="card rounded-3 p-3 mt-3">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center textOpamss mt-2 mb-4">Consulta General de Trámites</h2>
+            </div>
         </div>
-        <div class="col-md-3">
-
-            <label class="text-green font-weight-bold" style="color:#5fa760">Tipo de trámite*</label>
-
-            <div id="selectTipoTramite"></div>
-
-            <small class="form-text text-muted">* Obligatorio</small>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-3">
+                <div class="mb-2">
+                    <label for="txtAnio" class="text-success">Año*</label>
+                    <select class="form-select" name="txtAnio" id="txtAnio">
+                        @for (int i = 2020; i <= DateTime.Now.Year; i++)
+                        {
+                            <option value="@i">@i</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+                <div class="mb-2">
+                    <label for="txtTipoTramite" class="text-success">Tipo de trámite*</label>
+                    <select class="form-select" name="txtTipoTramite" id="txtTipoTramite">
+                        <option selected>Selecciona tipo de trámite</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+                <div class="mb-2">
+                    <label for="txtExp" class="text-success">Número de expediente*</label>
+                    <input type="text" class="form-control" onkeypress="return SoloNumeros(event)" name="txtExpediente" id="txtExpediente" placeholder="Escribe n° expediente" />
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+                <div class="d-grid gap-2 mt-2 mt-sm-4 mt-md-4">
+                    @*<input type="button" class="btn btnOpamss" name="btn" id="btn" value="Consultar" />*@
+                    <button class="btn btnOpamss text-capitalize" onclick="ObtenerTramites()" name="btn" id="btn"><i class="fa fa-search" aria-hidden="true"></i> Consultar</button>
+                </div>
+            </div>
         </div>
-
-        <div class="col-md-3">
-
-            <label class="text-green font-weight-bold" style="color:#5fa760">Numero de Expediente*</label>
-            <input id="lsExpe" class="form-control" style="width:200px" placeholder="Ejemplo 00012013" />
+        <div class="row" hidden>
+            <!-- Oculto hasta que se modifique la api para hacer esta consulta con checkbox-->
+            <div class="col-12 col-md-3">
+                <div class="d-grid gap-2 mt-2 mt-md-4">
+                    @*<input type="button" class="btn btnOpamss" name="btn" id="btn" value="Consultar" />*@
+                    <a class="btn btnOpamss text-capitalize" onclick="hideFilters('filters')" name="btn" id="btnFilter"><i class="fa fa-filter" aria-hidden="true"></i> Filtros</a>
+                </div>
+            </div>
         </div>
-        <div class="col-md-2">
-            <button type="submit" name="btn-submit" id="btBuscar" class="btn btn-success" style="margin-top:25px">Consultar</button>
-
+        <!-- Here comes the filters from partial view Filters on shared folder-->
+        <!-- Datatable -->
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="table-responsive" id="divTabla">
+                    <table class="table table-sm table-hover table-striped animated fadeInRight" id="dtExpedientes">
+                        <thead>
+                            <tr>
+                                <th>
+                                    Expediente
+                                </th>
+                                <th>
+                                    Estado del Trámite
+                                </th>
+                                <th>
+                                    Proyecto
+                                </th>
+                                <th>
+                                    Municipio
+                                </th>
+                                <th>
+                                    Tiempo Respuesta (Días hábiles)
+                                </th>
+                                <th>
+                                    Acciones
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Se genera en javascript jquery.consulta.js-->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
+        <div class="row">
+            <div class="col-12">
+                <!-- Modal Detalle Expediente-->
+                <div class="modal fade" id="modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="">Detalle Expediente <b id="numExpediente"></b></h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <!-- Cards de estado del trámite -->
+                                <div class="row d-flex justify-content-center mx-md-1 mx-xl-5">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                                        <div class="card tarjetas mb-sm-2 m-lg-1 h-100" data-card id="asignacion-card">
+                                            <div class="card-body">
+                                                <div class="flip-card-front text-center" id="frontAsignacion">
+                                                    <h4 class="text-center fs-5">Asignación</h4>
+                                                    <i class="fa fa-list-alt fa-xl" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="flip-card-back text-center" id="backAsignacion">
+                                                    <span class="fs-5" id="textAsignacion"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                                        <div class="card tarjetas my-1 m-lg-1 h-100" data-card id="analisis-card">
+                                            <div class="card-body">
+                                                <div class="flip-card-front text-center" id="frontAnalisis">
+                                                    <h4 class="text-center fs-5">Análisis</h4>
+                                                    <i class="fa fa-bar-chart fa-xl" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="flip-card-back text-center" id="backAnalisis">
+                                                    <span class="fs-5" id="textAnalisis"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                                        <div class="card tarjetas mt-sm-2 my-1 m-lg-1 h-100" data-card id="respuesta-card">
+                                            <div class="card-body">
+                                                <div class="flip-card-front text-center" id="frontRespuesta">
+                                                    <h4 class="text-center fs-5">Respuesta Ventanilla</h4>
+                                                    <i class="fa fa-check-square-o fa-xl" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="flip-card-back text-center" id="backRespuesta">
+                                                    <span class="fs-5" id="textRespuesta"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="text-center">
+                                            <div class="btn-group btn-group-sm my-3" role="group" aria-label="Basic example">
+                                                <button type="button" class="btn btnGrey text-white">No Iniciada</button>
+                                                <button type="button" class="btn btnBlue text-white">En Proceso</button>
+                                                <button type="button" class="btn btnGreen text-white">Finalizada</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-lg-6">
+                                        <div class="table-responsive">
+                                            <!-- Detalle del expediente -->
+                                            <table class="table table-sm table-striped">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>No. Expediente</td>
+                                                        <td><span id="numExp"></span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Proyecto</td>
+                                                        <td><span id="nomProy"></span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Fecha Ingreso</td>
+                                                        <td><span id="dateIngre"></span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Tipo de Resolución</td>
+                                                        <td><span id="estado"></span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Número de Ingreso</td>
+                                                        <td><span id="numIngr"></span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td id="catdt"></td>
+                                                        <td><span id="cat"></span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>No. de Ingreso</td>
+                                                        <td>1</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Días Transcurrido</td>
+                                                        <td><span id="DiaTran"></span></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
 
-
-
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-lg-3">
+                                        <!-- Tacómetros de dias transcurridos y restantes -->
+                                        <div class="text-center">
+                                            <canvas id="gaugeTranscurrido"></canvas>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-lg-3">
+                                        <div class="text-center">
+                                            <canvas id="gaugeRestante"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary text-capitalize" data-bs-dismiss="modal">Cerrar</button>
+                                @*<button type="button" class="btn btnOpamss text-capitalize">Aceptar</button>*@
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-
-<div class="panel-body">
-    <div class="adv-table">
-        <table id="consultaTable" class="table is-striped" style="width:100%">
-            <thead>
-                <tr>
-                    <th>
-                        @Html.DisplayNameFor(model => model.FirstOrDefault().numeroExpediente)
-                    </th>
-                    <th>
-                        @Html.DisplayNameFor(model => model.FirstOrDefault().estado)
-                    </th>
-                    <th>
-                        @Html.DisplayNameFor(model => model.FirstOrDefault().nomProy)
-                    </th>
-                    <th>
-                        @Html.DisplayNameFor(model => model.FirstOrDefault().municipio)
-                    </th>
-                    <th>
-                        @Html.DisplayNameFor(model => model.FirstOrDefault().tiempoRespuesta) <br />
-                        (Días Habiles)
-                    </th>
-                    <th>
-                        Seleccionar
-                    </th>
-
-
-                </tr>
-            </thead>
-            <tbody>
-            </tbody>
-
-        </table>
-    </div>
-</div>
-
-
-
-<script src="~/Scripts/jquery.consultaweb.js"></script>
+<script src="~/Scripts/jquery.consulta.js"></script>
 <script src="~/Scripts/jquery.consultaModal.js"></script>
