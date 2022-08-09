@@ -1,61 +1,59 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections;
+using System.Configuration;
 using System.Data;
 using System.Data.Odbc;
-using System.Linq;
-using System.Web;
 using System.Reflection;
-using System.Configuration;
+
 namespace WebApiFox.Models
 {
-    public class ContextModel:IDisposable   
+    public class ContextModel : IDisposable
     {
-        OdbcConnection cn;
-        public ContextModel(string dsnName= "dnsTramites")
+        OdbcConnection connectionDbFox;
+        public ContextModel(string dsnName = "dnsTramites")
         {
             var dns = ConfigurationManager.AppSettings[dsnName];
-            cn = new OdbcConnection();
-            cn.ConnectionString = "Dsn=" + dns + ";Read Only=true";
-            cn.Open();
+            connectionDbFox = new OdbcConnection();
+            connectionDbFox.ConnectionString = "Dsn=" + dns + ";Read Only=true";
+            connectionDbFox.Open();
         }
 
         public void Dispose()
         {
-            this.cn.Close();
+            this.connectionDbFox.Close();
         }
 
-        public DataTable GetQuery(string sql) {
-            OdbcDataAdapter da = new OdbcDataAdapter(sql, cn);
+        public DataTable GetQuery(string sql)
+        {
+            OdbcDataAdapter da = new OdbcDataAdapter(sql, connectionDbFox);
             DataSet ds = new DataSet();
             da.Fill(ds);
-            cn.Close();
+            connectionDbFox.Close();
             return ds.Tables[0];
-            }
+        }
 
-        public DataTable GetTramites(string anio, string tabla, string requesdata = "") {
-            anio = anio.Replace(@"'", "");
-            anio = anio.Replace(@"/", "");
-            anio = anio.Replace(@"?", "");
-            anio = anio.Replace(@"%", "");
-            anio = anio.Replace(@"+", "");
-            anio = anio.Replace(@"=", "");
-            anio = anio.Replace(@"or", "");
-            anio = anio.Replace(@"-", "");
-            anio = anio.Replace(@".", "");   
-            
-            tabla = tabla.Replace(@"'", "");
-            tabla = tabla.Replace(@"/", "");
-            tabla = tabla.Replace(@"?", "");
-            tabla = tabla.Replace(@"%", "");
-            tabla = tabla.Replace(@"+", "");
-            tabla = tabla.Replace(@"=", "");
-            tabla = tabla.Replace(@"or", "");
-            tabla = tabla.Replace(@"-", "");
-            tabla = tabla.Replace(@".", "");
+        private string RemoverCaracteresEspeciales(string valorString)
+        {
+            valorString = valorString.Replace(@"'", "");
+            valorString = valorString.Replace(@"/", "");
+            valorString = valorString.Replace(@"?", "");
+            valorString = valorString.Replace(@"%", "");
+            valorString = valorString.Replace(@"+", "");
+            valorString = valorString.Replace(@"=", "");
+            valorString = valorString.Replace(@"or", "");
+            valorString = valorString.Replace(@"-", "");
+            valorString = valorString.Replace(@".", "");
+            return valorString;
+        }
+
+        public DataTable GetTramitesDbFox(string anio, string tabla, string requesdata = "")
+        {
+            anio = RemoverCaracteresEspeciales(anio);
+
+            tabla = RemoverCaracteresEspeciales(tabla);
 
             var complementoWhere = "";
-           
+
             var sql = "";
             switch (tabla)
             {
@@ -105,65 +103,66 @@ namespace WebApiFox.Models
                     {
                         licReson = "t.lic_respon as licrespon,";
                     }
+                    #region Consulta original
                     sql = "SELECT " + licReson + " t.codigo_uso, t.expediente as numeroExpediente, t.resolucion as estado,t2.nombre descripcionEstado, t.entidad, t.n_entidad, t.acceso1, t.n_acceso1, t.nom_proy,"
                          + " t.acceso2, t.n_acceso2, t.acceso3, t.n_acceso3, t.poligono, t.f_ing_rec, t.f_rno_rec, t.f_emi_memo, t.f_r1_sal,"
                          + " t.f_r1_ing, t.f_r2_ing,t.categoria, t.retiromemo, t.municipio, t.f_rno_sal1, t.f_rno_sal2,t.f_asig_tec,t.f_inspec,t.f_sal_rec,t.f_resoluc {3} FROM {1} t join resolucion t2 on t.resolucion=t2.resolucion"
-                         + " WHERE right(t.expediente, 4) = '{0}' AND t.resolucion <> '' {2} order by f_r1_ing";
+                         + " WHERE right(t.expediente, 4) = '{0}' AND (t.resolucion != '' AND t.resolucion IS NOT NULL) {2} order by f_r1_ing";
+                    #endregion
 
                     break;
-            }      
-
-            complementoWhere = complementoWhere.Replace(@"/", "");
-            complementoWhere = complementoWhere.Replace(@"?", "");
-            complementoWhere = complementoWhere.Replace(@"%", "");
-            complementoWhere = complementoWhere.Replace(@"+", "");
-
-            complementoWhere = complementoWhere.Replace(@"or", "");
-
-
-            var fromculplete = "";
-
-            if (tabla.Trim().ToLower() == "cl" || tabla.Trim().ToLower() == "pc")
-            {
-                fromculplete = ", t.uso_esp";
-            }
-            else {
-                fromculplete = ", 'N/A' uso_esp";
             }
 
-            sql = string.Format(sql, anio, tabla,complementoWhere, fromculplete);
-            var dtable= this.GetQuery(sql);
-           /* dtable.Columns.Add(new DataColumn("descripcionEstado", "".GetType()));
+            complementoWhere = complementoWhere.Replace(@"/", "").Replace(@"?", "").Replace(@"%", "").Replace(@"+", "").Replace(@"or", "");
 
-            dtable.AsEnumerable().Where(p => p["estado"].ToString() == "M").ToList().ForEach(p =>
-            {
-                p["descripcionEstado"] = "Memo";
-            });
-            dtable.AsEnumerable().Where(p => p["estado"].ToString() == "F").ToList().ForEach(p =>
-            {
-                p["descripcionEstado"] = "Favorable";
-            });
-            dtable.AsEnumerable().Where(p => p["estado"].ToString() == "C").ToList().ForEach(p =>
-            {
-                p["descripcionEstado"] = "Condicionado";
-            });
-            dtable.AsEnumerable().Where(p => p["estado"].ToString() == "D").ToList().ForEach(p =>
-            {
-                p["descripcionEstado"] = "Denegado";
-            });
-            dtable.AsEnumerable().Where(p => p["estado"].ToString() == "T").ToList().ForEach(p =>
-            {
-                p["descripcionEstado"] = "Tramite";
-            });*/
-            
+
+            string fromculplete = (tabla.Trim().ToLower() == "cl" || tabla.Trim().ToLower() == "pc") ? ", t.uso_esp" : ", 'N/A' uso_esp";
+
+            //if (tabla.Trim().ToLower() == "cl" || tabla.Trim().ToLower() == "pc")
+            //{
+            //    fromculplete = ", t.uso_esp";
+            //}
+            //else
+            //{
+            //    fromculplete = ", 'N/A' uso_esp";
+            //}
+
+            sql = string.Format(sql, anio, tabla, complementoWhere, fromculplete);
+            var dtable = this.GetQuery(sql);
+            #region Codigo basura
+            /* dtable.Columns.Add(new DataColumn("descripcionEstado", "".GetType()));
+
+             dtable.AsEnumerable().Where(p => p["estado"].ToString() == "M").ToList().ForEach(p =>
+             {
+                 p["descripcionEstado"] = "Memo";
+             });
+             dtable.AsEnumerable().Where(p => p["estado"].ToString() == "F").ToList().ForEach(p =>
+             {
+                 p["descripcionEstado"] = "Favorable";
+             });
+             dtable.AsEnumerable().Where(p => p["estado"].ToString() == "C").ToList().ForEach(p =>
+             {
+                 p["descripcionEstado"] = "Condicionado";
+             });
+             dtable.AsEnumerable().Where(p => p["estado"].ToString() == "D").ToList().ForEach(p =>
+             {
+                 p["descripcionEstado"] = "Denegado";
+             });
+             dtable.AsEnumerable().Where(p => p["estado"].ToString() == "T").ToList().ForEach(p =>
+             {
+                 p["descripcionEstado"] = "Tramite";
+             });*/
+            #endregion
             return dtable;
         }
 
-       
+
     }
 
-    public static class TableExtencion {
-        public static IEnumerable<object> toIenumerable(this DataTable  tabla) {
+    public static class TableExtencion
+    {
+        public static IEnumerable<object> toIenumerable(this DataTable tabla)
+        {
             List<Dictionary<string, object>> jsonList = new List<Dictionary<string, object>>();
             foreach (DataRow row in tabla.Rows)
             {

@@ -232,6 +232,7 @@
     <Content Include="Content\img\logo_opamss.png" />
     <Content Include="Content\img\OPamss.png" />
     <Content Include="Content\img\OpamssLogo.PNG" />
+    <Content Include="Content\Site.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -295,7 +296,9 @@
     <Content Include="Scripts\jquery-3.4.1.min.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
+    <Content Include="Scripts\jquery.consulta.min.js" />
     <Content Include="Scripts\jquery.consulta.js" />
+    <Content Include="Scripts\jquery.consultaModal.min.js" />
     <Content Include="Scripts\jquery.consultaModal.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery.validate.js" />
@@ -303,6 +306,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\peticionesHttp.min.js" />
     <Content Include="Scripts\peticionesHttp.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>

@@ -16,16 +16,16 @@ namespace WebApiFox.Controllers
     public class ValuesController : ApiController
     {
 
-        ContextModel cn;
-        TramitesPostContext cnPost;
+        ContextModel connectionDbFox;
+        TramitesPostContext connectionPostgreSql;
         List<DiasFestivos> diasFestivosList;
         List<TipoTramite> TiposTramite;
         List<TiemposMaximos> tiempos;
 
         public ValuesController()
         {
-            cn = new ContextModel();
-            cnPost = new TramitesPostContext();
+            connectionDbFox = new ContextModel();
+            connectionPostgreSql = new TramitesPostContext();
             this.diasFestivosList = new List<DiasFestivos>();
 
             CultureInfo _culture = (CultureInfo)CultureInfo.CurrentCulture.Clone();
@@ -48,11 +48,14 @@ namespace WebApiFox.Controllers
         }
         [HttpGet]
         [Route("api/Values/Getall")]
-        public async Task<List<ConsultaModel>> Getall(string anio, string tabla, string expediente)
+        public List<ConsultaModel> Getall(string anio, string tabla, string expediente)
         {
             try
             {
                 tabla = ReemplazarCaracteres(tabla);
+
+                tabla = tabla.Equals("rvz") ? "rv" : tabla;
+                tabla = tabla.Equals("fall") ? "fll" : tabla;
                 List<ConsultaModel> lista = new List<ConsultaModel>();
                 switch (tabla)
                 {
@@ -70,9 +73,14 @@ namespace WebApiFox.Controllers
                         lista.AddRange(this.Post(new requesDataApi() { anio = anio, codigo_tramite = tabla, complementoWhere = expediente }));
                         break;
                 }
-                var listaExpedienteVentanilla = await new RepositorioExpedienteVentanillaVirtual().GetExpedientesByEndPoint(tabla, Convert.ToInt32(anio), expediente);
-                if (listaExpedienteVentanilla != null && listaExpedienteVentanilla.Count > 0)
-                    lista.AddRange(listaExpedienteVentanilla);
+                #region Codigo para cuando se haya publicado flujos en Tramites.opamss.org.sv
+                //if (Convert.ToInt32(anio) >= 2022)
+                //{
+                //    var listaExpedienteVentanilla = await new RepositorioExpedienteVentanillaVirtual().GetExpedientesByEndPoint(tabla, Convert.ToInt32(anio), expediente);
+                //    if (listaExpedienteVentanilla != null && listaExpedienteVentanilla.Count > 0)
+                //        lista.AddRange(listaExpedienteVentanilla);
+                //}
+                #endregion
                 return lista;
             }
             catch (Exception ex)
@@ -88,10 +96,10 @@ namespace WebApiFox.Controllers
         }
         public List<ConsultaModel> PostMO(requesDataApi requesdata)
         {
-            this.diasFestivosList = cnPost.GetData("Select * from public.dia_festivo order by fecha desc").ConvertDataTable<DiasFestivos>();
-            this.TiposTramite = cnPost.GetData("select id_tipo_tramite, codigo_tramite, nombre from public.tipo_tramite").ConvertDataTable<TipoTramite>();
-            this.tiempos = cn.GetQuery("select * from tiempomaximo").ConvertDataTable<TiemposMaximos>();
-            var rtQuery = cn.GetTramites(requesdata.anio, requesdata.codigo_tramite, requesdata.complementoWhere);
+            this.diasFestivosList = connectionPostgreSql.GetData("Select * from public.dia_festivo order by fecha desc").ConvertDataTable<DiasFestivos>();
+            this.TiposTramite = connectionPostgreSql.GetData("select id_tipo_tramite, codigo_tramite, nombre from public.tipo_tramite").ConvertDataTable<TipoTramite>();
+            this.tiempos = connectionDbFox.GetQuery("select * from tiempomaximo").ConvertDataTable<TiemposMaximos>();
+            var rtQuery = connectionDbFox.GetTramitesDbFox(requesdata.anio, requesdata.codigo_tramite, requesdata.complementoWhere);
 
             var tramites = rtQuery.ConvertDataTable<ConsultaFoxModel>();
             List<ConsultaModel> resultado = new List<ConsultaModel>();
@@ -129,19 +137,15 @@ namespace WebApiFox.Controllers
         // GET api/values
         public List<ConsultaModel> Post(requesDataApi requesdata)
         {
-            this.diasFestivosList = cnPost.GetData("Select * from public.dia_festivo order by fecha desc").ConvertDataTable<DiasFestivos>();
-            this.TiposTramite = cnPost.GetData("select id_tipo_tramite, codigo_tramite, nombre from public.tipo_tramite").ConvertDataTable<TipoTramite>();
-            this.tiempos = cn.GetQuery("select * from tiempomaximo").ConvertDataTable<TiemposMaximos>();
+            this.diasFestivosList = connectionPostgreSql.GetData("Select * from public.dia_festivo order by fecha desc").ConvertDataTable<DiasFestivos>();
+            this.TiposTramite = connectionPostgreSql.GetData("select id_tipo_tramite,codigo_tramite,nombre from public.tipo_tramite").ConvertDataTable<TipoTramite>();
+            this.tiempos = connectionDbFox.GetQuery("select * from tiempomaximo").ConvertDataTable<TiemposMaximos>();
 
 
-            var rtQuery = cn.GetTramites(requesdata.anio, requesdata.codigo_tramite, requesdata.complementoWhere);
+            var rtQuery = connectionDbFox.GetTramitesDbFox(requesdata.anio, requesdata.codigo_tramite, requesdata.complementoWhere);
 
             var tramites = rtQuery.ConvertDataTable<ConsultaFoxModel>();
             List<ConsultaModel> resultado = new List<ConsultaModel>();
-
-
-
-
             foreach (var registro in tramites)
             {
                 registro.estado = registro.estado.Trim();
@@ -294,15 +298,15 @@ namespace WebApiFox.Controllers
         // GET api/values
         public List<ConsultaModel> PostSC(requesDataApi requesdata)
         {
-            this.diasFestivosList = cnPost.GetData("Select * from public.dia_festivo order by fecha desc").ConvertDataTable<DiasFestivos>();
-            this.TiposTramite = cnPost.GetData("select id_tipo_tramite, codigo_tramite, nombre from public.tipo_tramite").ConvertDataTable<TipoTramite>();
-            this.tiempos = cn.GetQuery("select * from tiempomaximo").ConvertDataTable<TiemposMaximos>();
+            this.diasFestivosList = connectionPostgreSql.GetData("Select * from public.dia_festivo order by fecha desc").ConvertDataTable<DiasFestivos>();
+            this.TiposTramite = connectionPostgreSql.GetData("select id_tipo_tramite, codigo_tramite, nombre from public.tipo_tramite").ConvertDataTable<TipoTramite>();
+            this.tiempos = connectionDbFox.GetQuery("select * from tiempomaximo").ConvertDataTable<TiemposMaximos>();
 
 
-            var rtQuery = cn.GetTramites(requesdata.anio, requesdata.codigo_tramite, requesdata.complementoWhere);
+            var rtQuery = connectionDbFox.GetTramitesDbFox(requesdata.anio, requesdata.codigo_tramite, requesdata.complementoWhere);
 
             var tramites = rtQuery.ConvertDataTable<ConsultaModelivsc>();
-            List<ConsultaModel> resultado = new List<ConsultaModel>();
+            List<ConsultaModel> listadoTramites = new List<ConsultaModel>();
 
             foreach (var registro in tramites)
             {
@@ -360,18 +364,17 @@ namespace WebApiFox.Controllers
                     model.tiempoDemora = model.tiempoMaximoDemora - model.tiempoRespuesta;
                     model.retrasado = true;
                 }
-                resultado.Add(model);
+                listadoTramites.Add(model);
             }
-            return resultado.OrderByDescending(p => Convert.ToUInt64(p.numeroExpediente)).ToList();
+            return listadoTramites.OrderByDescending(p => Convert.ToUInt64(p.numeroExpediente)).ToList();
         }
         public List<ConsultaModel> PostIV(requesDataApi requesdata)
         {
-            this.diasFestivosList = cnPost.GetData("Select * from public.dia_festivo order by fecha desc").ConvertDataTable<DiasFestivos>();
-            this.TiposTramite = cnPost.GetData("select id_tipo_tramite, codigo_tramite, nombre from public.tipo_tramite").ConvertDataTable<TipoTramite>();
-            this.tiempos = cn.GetQuery("select * from tiempomaximo").ConvertDataTable<TiemposMaximos>();
+            this.diasFestivosList = connectionPostgreSql.GetData("Select * from public.dia_festivo order by fecha desc").ConvertDataTable<DiasFestivos>();
+            this.TiposTramite = connectionPostgreSql.GetData("select id_tipo_tramite, codigo_tramite, nombre from public.tipo_tramite").ConvertDataTable<TipoTramite>();
+            this.tiempos = connectionDbFox.GetQuery("select * from tiempomaximo").ConvertDataTable<TiemposMaximos>();
 
-
-            var rtQuery = cn.GetTramites(requesdata.anio, requesdata.codigo_tramite, requesdata.complementoWhere);
+            var rtQuery = connectionDbFox.GetTramitesDbFox(requesdata.anio, requesdata.codigo_tramite, requesdata.complementoWhere);
 
             var tramites = rtQuery.ConvertDataTable<ConsultaModelivsc>();
             List<ConsultaModel> resultado = new List<ConsultaModel>();
@@ -468,13 +471,13 @@ namespace WebApiFox.Controllers
         [Route("api/Values/GetTablaFox")]
         public IEnumerable<object> GetTablaFox(string tabla)
         {
-            return cn.GetQuery("Select * from  " + tabla).toIenumerable();
+            return connectionDbFox.GetQuery("Select * from  " + tabla).toIenumerable();
         }
         [Route("api/Values/GetDiasFestivos")]
         public IEnumerable<object> GetDiasFestivos()
         {
 
-            return cnPost.GetData("Select * from public.dia_festivo order by fecha desc ").ConvertDataTable<DiasFestivos>();
+            return connectionPostgreSql.GetData("Select * from public.dia_festivo order by fecha desc ").ConvertDataTable<DiasFestivos>();
         }
 
         // GET api/values/5
