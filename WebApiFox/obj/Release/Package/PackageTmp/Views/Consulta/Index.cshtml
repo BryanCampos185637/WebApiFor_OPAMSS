@@ -14,7 +14,7 @@
                 <div class="mb-2">
                     <label for="txtAnio" class="text-success">Año*</label>
                     <select class="form-select" name="txtAnio" id="txtAnio">
-                        @for (int i = annioActual; i > (annioActual-3); i--)
+                        @for (int i = annioActual; i > (annioActual - (annioActual - 2019)); i--)
                         {
                             <option value="@i">@i</option>
                         }

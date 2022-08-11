@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Globalization;
 using System.Linq;
 using System.Web.Http;
-using System.Data;
-using WebApiFox.Models;
-using System.Globalization;
 using System.Web.Http.Cors;
+using WebApiFox.Models;
 using WebApiFox.Repositorio;
-using System.Threading.Tasks;
 
 namespace WebApiFox.Controllers
 {
@@ -150,12 +149,10 @@ namespace WebApiFox.Controllers
             {
                 registro.estado = registro.estado.Trim();
                 var esteTramite = TiposTramite.Where(p => p.codigo_tramite == requesdata.codigo_tramite).FirstOrDefault();
-                var tiempo = tiempos
-                    .Where(p => p.tipo.ToUpper().Trim() == requesdata.codigo_tramite.ToUpper().Trim() && (p.categoria.ToUpper().Trim() == registro.categoria.ToLower() || p.categoria.ToUpper() == "N/A")).FirstOrDefault();
+                var tiempo = tiempos.Where(p => p.tipo.ToUpper().Trim() == requesdata.codigo_tramite.ToUpper().Trim()
+                                            && (p.categoria.ToUpper().Trim() == registro.categoria.ToLower() || p.categoria.ToUpper() == "N/A")).FirstOrDefault();
 
-                int ingresos = registro.NumeroIngresos;
-                int diasingreso1 = 0, diasingreso2 = 0, diasingreso3 = 0;
-                int sumdias = 1;
+                int ingresos = registro.NumeroIngresos, diasingreso1 = 0, diasingreso2 = 0, diasingreso3 = 0, sumdias = 1;
                 diasingreso1 = registro.DiasIngreso1(diasFestivosList);
                 diasingreso2 = registro.DiasIngreso2(diasFestivosList);
                 diasingreso3 = registro.DiasIngreso3(diasFestivosList);
@@ -167,17 +164,10 @@ namespace WebApiFox.Controllers
 
                 tiempoRespuesta = tiempoRespuesta == 0 ? 0 : tiempoRespuesta + sumdias;
 
-                string subicacion = "{0} {1} {2} {3} {4} {5} {6} {7} {8} ";
-                subicacion = string.Format(subicacion,
-                    registro.entidad.Trim(),
-                    registro.n_entidad.Trim(),
-                    registro.acceso1.Trim(),
-                    registro.n_acceso1.Trim(),
-                    registro.acceso2.Trim(),
-                    registro.n_acceso2.Trim(),
-                    registro.acceso3.Trim(),
-                    registro.n_acceso3.Trim(),
-                    registro.poligono.Trim());
+                string subicacion = string.Format("{0} {1} {2} {3} {4} {5} {6} {7} {8} ",
+                    registro.entidad.Trim(), registro.n_entidad.Trim(), registro.acceso1.Trim(),
+                    registro.n_acceso1.Trim(), registro.acceso2.Trim(), registro.n_acceso2.Trim(), registro.acceso3.Trim(),
+                    registro.n_acceso3.Trim(), registro.poligono.Trim());
 
                 var model = new ConsultaModel()
                 {
@@ -213,9 +203,6 @@ namespace WebApiFox.Controllers
                     uso_esp = registro.uso_esp,
                     codigo_uso = registro.codigo_uso,
                     licRespon = registro.licrespon
-
-
-
                 };
                 if (model.fechaAsignacion <= registro.FechaIngreso) model.fechaAsignacion = null;
                 if (model.fechaRetornoRecep <= registro.FechaIngreso) model.fechaRetornoRecep = null;
@@ -298,22 +285,22 @@ namespace WebApiFox.Controllers
         // GET api/values
         public List<ConsultaModel> PostSC(requesDataApi requesdata)
         {
+
+            List<ConsultaModel> listadoTramites = new List<ConsultaModel>();
+            
+           
             this.diasFestivosList = connectionPostgreSql.GetData("Select * from public.dia_festivo order by fecha desc").ConvertDataTable<DiasFestivos>();
             this.TiposTramite = connectionPostgreSql.GetData("select id_tipo_tramite, codigo_tramite, nombre from public.tipo_tramite").ConvertDataTable<TipoTramite>();
             this.tiempos = connectionDbFox.GetQuery("select * from tiempomaximo").ConvertDataTable<TiemposMaximos>();
+            DataTable rtQuery = new DataTable();
 
-
-            var rtQuery = connectionDbFox.GetTramitesDbFox(requesdata.anio, requesdata.codigo_tramite, requesdata.complementoWhere);
-
+            rtQuery = connectionDbFox.GetTramitesDbFox(requesdata.anio, requesdata.codigo_tramite, requesdata.complementoWhere);
             var tramites = rtQuery.ConvertDataTable<ConsultaModelivsc>();
-            List<ConsultaModel> listadoTramites = new List<ConsultaModel>();
 
             foreach (var registro in tramites)
             {
                 registro.estado = registro.estado.Trim();
-                var esteTramite = TiposTramite.Where(p => p.codigo_tramite == requesdata.codigo_tramite).FirstOrDefault();
-
-
+                var tipoTramite = TiposTramite.Where(p => p.codigo_tramite == requesdata.codigo_tramite).FirstOrDefault();
                 string subicacion = "{0} {1} {2} {3} {4} {5} {6} {7}";
                 subicacion = string.Format(subicacion,
                     registro.entidad.Trim(),
@@ -325,19 +312,20 @@ namespace WebApiFox.Controllers
                     registro.acceso3.Trim(),
                     registro.n_acceso3.Trim());
 
+                #region Creacion del objeto 
                 var model = new ConsultaModel()
                 {
                     nomProy = registro.nom_proy.Trim(),
                     numeroExpediente = registro.numeroexpediente.Trim(),
                     estado = registro.estado.Trim(),
-                    nombreTipoTramite = esteTramite?.nombre.Trim(),
+                    nombreTipoTramite = tipoTramite?.nombre.Trim(),
                     tipoTramite = requesdata.codigo_tramite.Trim(),
                     municipio = registro.municipio,
                     ubicacion = subicacion,
                 };
-                /*
-                 calculo tiempo restante
-                 */
+
+                #region Calculo del tiempo
+
                 if (model.tiempoRespuesta < model.tiempoMaximo)
                 {
                     if (model.estado == "F" || model.estado == "C" || model.estado == "M" || model.estado == "D")
@@ -364,6 +352,10 @@ namespace WebApiFox.Controllers
                     model.tiempoDemora = model.tiempoMaximoDemora - model.tiempoRespuesta;
                     model.retrasado = true;
                 }
+                #endregion
+
+                #endregion
+
                 listadoTramites.Add(model);
             }
             return listadoTramites.OrderByDescending(p => Convert.ToUInt64(p.numeroExpediente)).ToList();

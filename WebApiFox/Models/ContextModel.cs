@@ -14,7 +14,7 @@ namespace WebApiFox.Models
         {
             var dns = ConfigurationManager.AppSettings[dsnName];
             connectionDbFox = new OdbcConnection();
-            connectionDbFox.ConnectionString = "Dsn=" + dns + ";Read Only=true";
+            connectionDbFox.ConnectionString = $"Dsn={dns};Read Only=true";
             connectionDbFox.Open();
         }
 
@@ -23,13 +23,13 @@ namespace WebApiFox.Models
             this.connectionDbFox.Close();
         }
 
-        public DataTable GetQuery(string sql)
+        public DataTable GetQuery(string querySql)
         {
-            OdbcDataAdapter da = new OdbcDataAdapter(sql, connectionDbFox);
-            DataSet ds = new DataSet();
-            da.Fill(ds);
+            OdbcDataAdapter odbcDataAdapter = new OdbcDataAdapter(querySql, connectionDbFox);
+            DataSet dataSet = new DataSet();
+            odbcDataAdapter.Fill(dataSet);
             connectionDbFox.Close();
-            return ds.Tables[0];
+            return dataSet.Tables[0];
         }
 
         private string RemoverCaracteresEspeciales(string valorString)
@@ -46,22 +46,23 @@ namespace WebApiFox.Models
             return valorString;
         }
 
-        public DataTable GetTramitesDbFox(string anio, string tabla, string requesdata = "")
+        #region Original [Quitar palabra Async]
+        public DataTable GetTramitesDbFox(string anio, string tabla, string codigoExpediente = "")
         {
             anio = RemoverCaracteresEspeciales(anio);
 
             tabla = RemoverCaracteresEspeciales(tabla);
 
-            var complementoWhere = "";
+            var filtroPorCodigoExpediente = "";
 
             var sql = "";
             switch (tabla)
             {
                 case "mo":
 
-                    if (!string.IsNullOrEmpty(requesdata))
+                    if (!string.IsNullOrEmpty(codigoExpediente))
                     {
-                        complementoWhere = string.Format(" and expediente='{0}'", requesdata);
+                        filtroPorCodigoExpediente = string.Format(" and expediente='{0}'", codigoExpediente);
                     }
 
                     sql = "SELECT codigo_uso, expediente as numeroExpediente, entidad, n_entidad, acceso1, n_acceso1, acceso2, n_acceso2, acceso3, n_acceso3, poligono,municipio FROM {1}" +
@@ -70,9 +71,9 @@ namespace WebApiFox.Models
                     break;
                 case "sc":
 
-                    if (!string.IsNullOrEmpty(requesdata))
+                    if (!string.IsNullOrEmpty(codigoExpediente))
                     {
-                        complementoWhere = string.Format(" and expediente='{0}'", requesdata);
+                        filtroPorCodigoExpediente = string.Format(" and expediente='{0}'", codigoExpediente);
                     }
 
                     sql = "SELECT nom_proy, expediente as numeroExpediente, resolucion as estado , entidad ,n_entidad ,acceso1 , n_acceso1, acceso2 , n_acceso2 ,acceso3 , n_acceso3 ,Municipio FROM {1}" + " WHERE right(expediente, 4) = '{0}'  {2}";
@@ -80,9 +81,9 @@ namespace WebApiFox.Models
                     break;
                 case "iv":
 
-                    if (!string.IsNullOrEmpty(requesdata))
+                    if (!string.IsNullOrEmpty(codigoExpediente))
                     {
-                        complementoWhere = string.Format(" and expediente='{0}'", requesdata);
+                        filtroPorCodigoExpediente = string.Format(" and expediente='{0}'", codigoExpediente);
                     }
 
                     sql = "SELECT nom_proy, expediente as numeroExpediente, entidad ,n_entidad ,acceso1 , n_acceso1, acceso2 , n_acceso2 ,acceso3 , n_acceso3  FROM {1}" + " WHERE right(expediente, 4) = '{0}'  {2}";
@@ -90,9 +91,9 @@ namespace WebApiFox.Models
                     break;
                 default:
 
-                    if (!string.IsNullOrEmpty(requesdata))
+                    if (!string.IsNullOrEmpty(codigoExpediente))
                     {
-                        complementoWhere = string.Format(" and t.expediente='{0}'", requesdata);
+                        filtroPorCodigoExpediente = string.Format(" and t.expediente='{0}'", codigoExpediente);
                     }
                     string licReson = "";
                     if (tabla == "pp" || tabla == "pps")
@@ -104,20 +105,21 @@ namespace WebApiFox.Models
                         licReson = "t.lic_respon as licrespon,";
                     }
                     #region Consulta original
-                    sql = "SELECT " + licReson + " t.codigo_uso, t.expediente as numeroExpediente, t.resolucion as estado,t2.nombre descripcionEstado, t.entidad, t.n_entidad, t.acceso1, t.n_acceso1, t.nom_proy,"
+                    sql = "SELECT " + licReson + " t.codigo_uso, t.expediente as numeroExpediente, t.resolucion as estado,t2.nombre as descripcionEstado, t.entidad, t.n_entidad, t.acceso1, t.n_acceso1, t.nom_proy,"
                          + " t.acceso2, t.n_acceso2, t.acceso3, t.n_acceso3, t.poligono, t.f_ing_rec, t.f_rno_rec, t.f_emi_memo, t.f_r1_sal,"
                          + " t.f_r1_ing, t.f_r2_ing,t.categoria, t.retiromemo, t.municipio, t.f_rno_sal1, t.f_rno_sal2,t.f_asig_tec,t.f_inspec,t.f_sal_rec,t.f_resoluc {3} FROM {1} t join resolucion t2 on t.resolucion=t2.resolucion"
-                         + " WHERE right(t.expediente, 4) = '{0}' AND (t.resolucion != '' AND t.resolucion IS NOT NULL) {2} order by f_r1_ing";
+                         + " WHERE right(t.expediente, 4) = '{0}' AND (t.resolucion != '' AND t.resolucion IS NOT NULL) {2} ORDER BY t.expediente";
                     #endregion
 
                     break;
             }
 
-            complementoWhere = complementoWhere.Replace(@"/", "").Replace(@"?", "").Replace(@"%", "").Replace(@"+", "").Replace(@"or", "");
+            filtroPorCodigoExpediente = filtroPorCodigoExpediente.Replace(@"/", "").Replace(@"?", "").Replace(@"%", "").Replace(@"+", "").Replace(@"or", "");
 
 
             string fromculplete = (tabla.Trim().ToLower() == "cl" || tabla.Trim().ToLower() == "pc") ? ", t.uso_esp" : ", 'N/A' uso_esp";
 
+            #region basura
             //if (tabla.Trim().ToLower() == "cl" || tabla.Trim().ToLower() == "pc")
             //{
             //    fromculplete = ", t.uso_esp";
@@ -126,9 +128,11 @@ namespace WebApiFox.Models
             //{
             //    fromculplete = ", 'N/A' uso_esp";
             //}
+            #endregion
 
-            sql = string.Format(sql, anio, tabla, complementoWhere, fromculplete);
-            var dtable = this.GetQuery(sql);
+            sql = string.Format(sql, anio, tabla, filtroPorCodigoExpediente, fromculplete);
+            var resultSqlQuery = this.GetQuery(sql);
+
             #region Codigo basura
             /* dtable.Columns.Add(new DataColumn("descripcionEstado", "".GetType()));
 
@@ -153,7 +157,32 @@ namespace WebApiFox.Models
                  p["descripcionEstado"] = "Tramite";
              });*/
             #endregion
-            return dtable;
+            return resultSqlQuery;
+        }
+        #endregion
+
+        public DataTable GetTramiteByCodigoDbFox(string anio, string tabla, string codigoExpediente = "")
+        {
+            anio = RemoverCaracteresEspeciales(anio);
+
+            tabla = RemoverCaracteresEspeciales(tabla);
+           
+            string licReson = tabla == "pp" || tabla == "pps"? "t.urbano as licrespon,": "t.lic_respon as licrespon,";
+
+            #region Consulta original
+            var sql = "SELECT " + licReson + " t.codigo_uso, t.expediente as numeroExpediente, t.resolucion as estado,t2.nombre as descripcionEstado, t.entidad, t.n_entidad, t.acceso1, t.n_acceso1, t.nom_proy,"
+                 + " t.acceso2, t.n_acceso2, t.acceso3, t.n_acceso3, t.poligono, t.f_ing_rec, t.f_rno_rec, t.f_emi_memo, t.f_r1_sal,"
+                 + " t.f_r1_ing, t.f_r2_ing,t.categoria, t.retiromemo, t.municipio, t.f_rno_sal1, t.f_rno_sal2,t.f_asig_tec,t.f_inspec,t.f_sal_rec,t.f_resoluc {2} FROM {1} t join resolucion t2 on t.resolucion=t2.resolucion"
+                 + " WHERE t.expediente='{0}'";
+            #endregion
+
+
+            var filtroPorCodigoExpediente  = codigoExpediente.Replace(@"/", "").Replace(@"?", "").Replace(@"%", "").Replace(@"+", "").Replace(@"or", "");
+
+            string fromculplete = (tabla.Trim().ToLower() == "cl" || tabla.Trim().ToLower() == "pc") ? ", t.uso_esp" : ", 'N/A' uso_esp";
+            sql = string.Format(sql, filtroPorCodigoExpediente, tabla, fromculplete);
+            var resultSqlQuery = this.GetQuery(sql);
+            return resultSqlQuery;
         }
 
 

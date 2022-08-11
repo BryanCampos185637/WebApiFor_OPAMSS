@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
 using System.Linq;
-using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Cors;
@@ -79,6 +78,18 @@ namespace WebApiFox.Controllers
             }
 
 
+        }
+
+        [HttpGet]
+        [Route("api/Tramites/GetA")]
+        public IHttpActionResult GetAnnio()
+        {
+            List<string> anios = new List<string>();
+            for (int i = 2020; i <= DateTime.Now.Year; i++)
+            {
+                anios.Add(i.ToString());
+            }
+            return Ok(anios);
         }
     }
 }
