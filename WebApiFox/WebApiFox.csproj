@@ -229,6 +229,8 @@
     <Content Include="Content\img\icons\task_alt_FILL0_wght400_GRAD0_opsz48-GREY.svg" />
     <Content Include="Content\img\icons\task_alt_FILL0_wght400_GRAD0_opsz48.png" />
     <Content Include="Content\img\icons\task_alt_FILL0_wght400_GRAD0_opsz48.svg" />
+    <Content Include="Content\img\icon_pwa\icon-192.png" />
+    <Content Include="Content\img\icon_pwa\icon-512.png" />
     <Content Include="Content\img\logo_opamss.png" />
     <Content Include="Content\img\OPamss.png" />
     <Content Include="Content\img\OpamssLogo.PNG" />
@@ -278,6 +280,7 @@
     <Content Include="Content\bootstrap.rtl.css.map" />
     <Content Include="Content\bootstrap.rtl.min.css.map" />
     <Content Include="Content\img.zip" />
+    <Content Include="manifest.json" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -308,6 +311,7 @@
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\peticionesHttp.min.js" />
     <Content Include="Scripts\peticionesHttp.js" />
+    <Content Include="service_worker.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -326,6 +330,7 @@
     <Content Include="Views\Consulta\Index.cshtml" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
+    <Content Include="Scripts\Manifest\manifest.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

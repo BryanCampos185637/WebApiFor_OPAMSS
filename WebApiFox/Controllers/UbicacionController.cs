@@ -10,7 +10,7 @@ using System.Web.Http.Cors;
 using WebApiFox.Models;
 namespace WebApiFox.Controllers
 {
-    [EnableCors(origins: "http://tramites.opamss.org.sv:8083,http://tramites.opamss.org.sv:8084,http://localhost:54490,http://localhost:4200,https://tramites.opamss.org.sv", headers: "*", methods: "*")]
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class UbicacionController : ApiController
     {
         ContextUbicaciones cnContext;

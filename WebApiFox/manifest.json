@@ -1,0 +1,20 @@
+{
+	"short_name": "ConsultaTramites",
+	"name": "Consulta de tramites",
+	"icons": [
+		{
+			"src": "/Content/img/icon_pwa/icon-192.png",
+			"type": "image/png",
+			"sizes": "192x192512"
+		},
+		{
+			"src": "/Content/img/icon_pwa/icon-512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"start_url": "/Consulta/",
+	"background_color": "#006097",
+	"display": "standalone",
+	"theme_color": "#0071B2"
+}
