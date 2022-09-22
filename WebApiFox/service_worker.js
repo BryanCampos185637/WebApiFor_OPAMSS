@@ -9,7 +9,6 @@
     'https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap5.min.js',
     'https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js',
     'https://use.fontawesome.com/30dbec44bb.css',
-    //'https://use.fontawesome.com/releases/v4.7.0/css/font-awesome-css.min.css',
     '/Content/site.css',
     '/Scripts/jquery-3.4.1.min.js',
     '/Scripts/peticionesHttp.js',
