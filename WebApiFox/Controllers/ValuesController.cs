@@ -84,6 +84,7 @@ namespace WebApiFox.Controllers
             }
             catch (Exception ex)
             {
+                Helpers.LoggerError.CrearArchivoError(ex);
                 throw new Exception($"Ocurrio un problema con la peticion: ${ex.Message}");
             }
         }

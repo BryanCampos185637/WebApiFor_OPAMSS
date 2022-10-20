@@ -188,6 +188,7 @@
     </Compile>
     <Compile Include="Helpers\ApiResult.cs" />
     <Compile Include="Helpers\DataExeption.cs" />
+    <Compile Include="Helpers\LoggerError.cs" />
     <Compile Include="Models\Acreditados.cs" />
     <Compile Include="Models\AcreditadosContext.cs" />
     <Compile Include="Models\ConsultaFoxModel.cs" />

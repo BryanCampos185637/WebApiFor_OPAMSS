@@ -34,6 +34,7 @@ namespace WebApiFox.Controllers
             }
             catch (Exception ex)
             {
+                Helpers.LoggerError.CrearArchivoError(ex);
                 return BadRequest();
             }
         }
